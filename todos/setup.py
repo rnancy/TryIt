@@ -23,8 +23,9 @@ setup(
     packages=find_packages(),
     install_requires=[
         'setuptools',
-        'PTable',
+        'PTable==0.9.2',
         'argparse',
+        'SQLAlchemy==1.1',
     ],
     tests_require=[
     ],
